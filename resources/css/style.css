@@ -184,7 +184,7 @@ footer {
   border-top: 1px solid gray;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
 .mobile {
   display: flex;
 }
