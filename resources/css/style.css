@@ -3,11 +3,11 @@ html {
 }
 
 body {
-
+  font-family: 'Lato', sans-serif;
 }
 
-p {
-  margin: 0;
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -84,7 +84,7 @@ header {
 
 button {
   padding: 8px 24px;
-  background-color: gray;
+  background-color: dimgray;
   color: white;
   font-weight: bold;
 }
