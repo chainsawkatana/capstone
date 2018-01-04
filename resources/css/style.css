@@ -1,0 +1,293 @@
+html {
+
+}
+
+body {
+
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+#toplogo {
+  display: flex;
+  margin-left: 24px;
+  height: 32px;
+  align-items: center;
+}
+
+#topnav {
+  display: flex;
+  margin-right: 8px;
+}
+
+#topnav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#topnav li {
+  padding-right: 16px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.mobile {
+  display: none;
+}
+
+#colmar {
+  font-weight: bold;
+  color: black;
+}
+
+#academy {
+  color: gray;
+}
+
+.container {
+  display: flex;
+}
+
+.maingray {
+  background-color: lightgray;
+  width: 100%;
+}
+
+#topleftpic {
+  display: flex;
+  width: 60%;
+  margin: 32px 24px;
+}
+
+#topleftpic img {
+  width: 100%;
+  height: 100%;
+}
+
+#topright {
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+button {
+  padding: 8px 24px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+}
+
+#main2 {
+  margin: 32px 0;
+}
+
+#midtopleft {
+  width: 60%;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+#midtopleft img {
+  width: 100%;
+  height: auto;
+}
+
+#midtopright {
+  width: 40%;
+  flex-direction: column;
+}
+
+.mtr {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.mtr img {
+  width: 35%;
+  height: 35%;
+  padding: 16px;
+}
+
+.mtrtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mtrhighlight {
+  background-color: lightgray;
+}
+
+.botheading {
+  width: 100%;
+  justify-content: center;
+}
+
+.botheading h2 {
+  padding: 32px;
+  margin: 0;
+}
+
+.midbot {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.mb {
+  margin: 0 32px 32px 32px;
+  flex-direction: column;
+  width: 25%;
+  background-color: white;
+}
+
+.mb img {
+  height: auto;
+  width: 100%;
+}
+
+.mbtext {
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+#botleft {
+  width: 60%;
+  padding: 0 24px 24px 24px;
+}
+
+#botright {
+  width: 40%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid gray;
+}
+
+@media (max-width: 480px) {
+.mobile {
+  display: flex;
+}
+
+.desktop {
+  display: none;
+}
+
+#toplogo {
+  display: none;
+}
+
+#topnav {
+  display: none;
+}
+
+#mbtopnav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#main1 {
+  flex-direction: column;
+  background-color: lightgray
+}
+
+.maingray {
+  background-color: white;
+}
+
+#topleftpic {
+  width: 100%;
+  margin: 0;
+}
+
+#topright {
+  padding: 32px 16px;
+  margin: 0;
+}
+
+#midtopleft {
+  display: none;
+}
+
+#midtopright {
+  width: 100%;
+}
+
+.mtr {
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.mtr img {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+
+#main2 {
+  margin: 32px 0 0 0;
+}
+
+.mtrtext {
+  padding: 16px 16px 32px 16px;
+}
+
+.mtrhighlight {
+  background-color: white;
+}
+
+.botheading h2 {
+  padding: 32px 32px 16px 32px;
+  margin: 0;
+}
+
+#mobilebuttons {
+  width: 100%;
+}
+
+ .mbbutton {
+   padding: 16px 24px;
+   background-color: gray;
+   color: black;
+   margin: 0 16px 8px 16px;
+   text-align: left;
+ }
+
+.mbbutton h3 {
+  margin: 0;
+}
+
+#botleft {
+  width: 100%;
+}
+
+#botleft h3, p {
+  display: none;
+}
+
+#botright {
+  display: none;
+}
+
+}
