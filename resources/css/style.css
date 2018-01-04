@@ -61,7 +61,7 @@ header {
 }
 
 .maingray {
-  background-color: lightgray;
+  background-color: gainsboro;
   width: 100%;
 }
 
@@ -128,7 +128,7 @@ button {
 }
 
 .mtrhighlight {
-  background-color: lightgray;
+  background-color: gainsboro;
 }
 
 .botheading {
@@ -209,7 +209,7 @@ footer {
 
 #main1 {
   flex-direction: column;
-  background-color: lightgray
+  background-color: gainsboro;
 }
 
 .maingray {
